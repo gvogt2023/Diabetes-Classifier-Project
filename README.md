@@ -90,7 +90,7 @@ Overall, it seems that these techniques were not very successful in the multicla
 BMI, age and general health are the most important features of our multiclass model. 
 
 
-![Binary Results](imgs/binary_results.png)
+![Binary Results](imgs/binary_results.png) 
 
 
 I will select AdaBoost as our final model in proposal.
@@ -99,6 +99,9 @@ All of these models seem to have similar performance with an overall accuracy of
 
 The logistic regression model with and without selectKBest feature selection has the lowest accuracy and F1 scores. This could indicate that the model is underfitting the data and may not be capturing the complexity of the relationships between the features and the target variable. The other models, including RandomForest, Bagging, KNN, XGBoost, AdaBoost, and Stacking models seem to be performing similarly well, with only slight variations in their precision, recall, and F1 scores.
 
+![Binary Feature Importance](imgs/feature_importances_binary.png) 
+
+BMI, age, and general health remain the most important factors in this classification model. 
 
 ## Conclusion and Recommendations
 
