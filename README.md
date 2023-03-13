@@ -2,7 +2,6 @@
 Diabetes-Classifier-Project for Flatiron School
 
 
-**Diabetes Phone Screening Classification Model**
 
 ## Business and Data Understanding:
 
@@ -30,7 +29,7 @@ High negative correlations:
 - Income
 - Education
 - PhysActivity
-- 
+
 Highest positive correlations:
 - GenHlth
 - HighBP
@@ -79,6 +78,8 @@ Then when I shifted to the binary class problem of predicting for 0 (non-diabeti
 
 ## Evaluation
 
+Multiclass results:
+
 ![Multiclass Results](imgs/multiclass_results.png)
 
 Based on the classification reports, it appears that the basic logistic regression, bagging, and knn models all performed similarly with an accuracy score of around 70%. However, these models fail to predict for the minority class '1' at all while tuned logistic regression, logistic kbest, random forest, and gradient boost models all had lower accuracy scores but did successfully predict for value '1' of target.
@@ -89,8 +90,9 @@ Overall, it seems that these techniques were not very successful in the multicla
 
 BMI, age and general health are the most important features of our multiclass model. 
 
+Binary results:
 
-![Binary Results](imgs/binary_results.png)
+![Binary Results](imgs/binary_results.png) 
 
 
 I will select AdaBoost as our final model in proposal.
@@ -99,6 +101,9 @@ All of these models seem to have similar performance with an overall accuracy of
 
 The logistic regression model with and without selectKBest feature selection has the lowest accuracy and F1 scores. This could indicate that the model is underfitting the data and may not be capturing the complexity of the relationships between the features and the target variable. The other models, including RandomForest, Bagging, KNN, XGBoost, AdaBoost, and Stacking models seem to be performing similarly well, with only slight variations in their precision, recall, and F1 scores.
 
+![Binary Feature Importance](imgs/feature_importances_binary.png) 
+
+BMI, age, and general health remain the most important factors in this classification model. 
 
 ## Conclusion and Recommendations
 
