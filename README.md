@@ -1,6 +1,9 @@
 # Diabetes-Classifier-Project
 Diabetes-Classifier-Project for Flatiron School
 
+
+**Diabetes Phone Screening Classification Model**
+
 ![Correlation Matrix](imgs/correlation_matrix.png)
 
 ![Target Distribution](imgs/diabetes_target_distribution.png)
