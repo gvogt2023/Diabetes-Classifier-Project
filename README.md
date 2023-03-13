@@ -85,7 +85,13 @@ Based on the classification reports, it appears that the basic logistic regressi
 
 Overall, it seems that these techniques were not very successful in the multiclass approach. Bagging and knn models may be the best choices for this particular dataset due to highest accuracy scores and precision and recall scores above 0.7 for all three classes, however, it's worth noting the next notebook for Binary approach improves on this multiclass approach.
 
+![Feature Importances](imgs/feature_importances_final_model.png) age_distribution.png
+
+BMI, age and general health are the most important features of our multiclass model. 
+
+
 ![Binary Results](imgs/binary_results.png)
+
 
 I will select AdaBoost as our final model in proposal.
 
@@ -93,9 +99,6 @@ All of these models seem to have similar performance with an overall accuracy of
 
 The logistic regression model with and without selectKBest feature selection has the lowest accuracy and F1 scores. This could indicate that the model is underfitting the data and may not be capturing the complexity of the relationships between the features and the target variable. The other models, including RandomForest, Bagging, KNN, XGBoost, AdaBoost, and Stacking models seem to be performing similarly well, with only slight variations in their precision, recall, and F1 scores.
 
-![Feature Importances](imgs/feature_importances_final_model.png) age_distribution.png
-
-BMI, age and general health are the most important features of our model. 
 
 ## Conclusion and Recommendations
 
