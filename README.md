@@ -42,8 +42,12 @@ Yes, there is a class imbalance. Class 0 has a significantly larger number of sa
 
 ![Histogram All](imgs/histogram_all_features.png) 
 
+![BMI Distribution](imgs/BMI_distribution.png)
+
+![Age Distribution](imgs/age_distribution.png) 
+
 ![Multiclass Results](imgs/multiclass_results.png)
 
 ![Binary Results](imgs/binary_results.png)
 
-![Feature Importances](imgs/feature_importances_final_model.png)
+![Feature Importances](imgs/feature_importances_final_model.png) age_distribution.png
