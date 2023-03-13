@@ -80,6 +80,7 @@ Then when I shifted to the binary class problem of predicting for 0 (non-diabeti
 ## Evaluation
 
 Multiclass results:
+
 ![Multiclass Results](imgs/multiclass_results.png)
 
 Based on the classification reports, it appears that the basic logistic regression, bagging, and knn models all performed similarly with an accuracy score of around 70%. However, these models fail to predict for the minority class '1' at all while tuned logistic regression, logistic kbest, random forest, and gradient boost models all had lower accuracy scores but did successfully predict for value '1' of target.
@@ -91,6 +92,7 @@ Overall, it seems that these techniques were not very successful in the multicla
 BMI, age and general health are the most important features of our multiclass model. 
 
 Binary results:
+
 ![Binary Results](imgs/binary_results.png) 
 
 
