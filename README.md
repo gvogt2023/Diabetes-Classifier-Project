@@ -2,7 +2,6 @@
 Diabetes-Classifier-Project for Flatiron School
 
 
-**Diabetes Phone Screening Classification Model**
 
 ## Business and Data Understanding:
 
