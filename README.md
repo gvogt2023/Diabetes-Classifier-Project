@@ -30,7 +30,7 @@ High negative correlations:
 - Income
 - Education
 - PhysActivity
-- 
+
 Highest positive correlations:
 - GenHlth
 - HighBP
